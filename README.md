@@ -65,5 +65,4 @@ This project demonstrates:
 
 ---
 
-## Author
-Student Project – Cybersecurity Awareness Bot (Part 1)
+
