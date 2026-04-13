@@ -64,5 +64,6 @@ This project demonstrates:
 - Basic software design principles
 
 ---
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/1893235e-2b73-41ae-a12e-64418493f995" />
 
 
