@@ -47,3 +47,4 @@ This is a chatbot I built using Windows Forms and C#. It teaches users about cyb
 
 
 
+<img width="1919" height="1079" alt="Screenshot 2026-05-29 231202" src="https://github.com/user-attachments/assets/636092e3-6854-40f0-ad06-731dc211c902" />
