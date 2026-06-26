@@ -1,10 +1,16 @@
-﻿using System;
-namespace CybersecurityBot
+using System;
+using System.Windows.Forms;
+
+namespace CybersecurityBotWinForms
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
+            ApplicationConfiguration.Initialize();
+            
+            Application.Run(new MainForm());
         }
     }
 }
