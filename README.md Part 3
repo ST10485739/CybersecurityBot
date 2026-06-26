@@ -1,0 +1,39 @@
+ ## CyberGuard Bot — Cybersecurity Awareness Chatbot
+ A cybersecurity awareness chatbot built in C# Windows Forms (.NET 6). It includes a chat assistant, task manager with MySQL storage, a quiz mini-game, NLP-based intent detection, and an activity log.
+
+## Requirements
+- Windows 10 or 11
+- .NET 6 or later
+- MySQL Server 8.0 or later
+- 
+## Setup
+**1. Clone the repository**
+```bash
+git clone https://github.com/your-username/CyberGuardBot.git
+cd CyberGuardBot
+```
+**2. Configure MySQL**
+The app connects using these default credentials:
+
+| Setting  | Value     |
+|----------|-----------|
+| Host     | localhost |
+| Port     | 3306      |
+| Username | root      |
+| Password | 1234      |
+
+If your MySQL password is different, update the `ConnectionString` in `Data/DatabaseHelper.cs`. The database and table are created automatically on first launch.
+
+**3. Restore packages and run**
+```bash
+dotnet restore
+dotnet run
+
+## Features
+- **Chat** — keyword-based responses across 7 cybersecurity topics, sentiment detection, follow-up tips, and interest tracking
+- **Task Assistant** — add, view, complete, and delete tasks stored in MySQL; tasks can also be added via chat
+- **Quiz** — 12 shuffled questions (multiple choice and true/false) with immediate feedback and a final score
+- **NLP** — detects intent from natural language to route commands like "remind me to...", "show my tasks", "start the quiz"
+- **Activity Log** — timestamped record of all bot actions; viewable in the dedicated tab or via chat command
+
+
